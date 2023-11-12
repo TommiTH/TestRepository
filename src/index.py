@@ -1,4 +1,8 @@
+from logger import logger
 
-def main():
-    x = int(input("luku 1: "))
-    y = int(input("luku 2: "))
+logger("aloitetaan")
+
+x = int(input("luku 1: "))
+y = int(input("luku 2: "))
+
+logger("lopetetaan")
